@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALM - Carrinho</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" />
+    <link rel="stylesheet" href="css/carrinho.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="menu-escolha">
+        <div class="flex-row-e">
+          <div class="rectangle"></div>
+          <div class="vector" onclick="redirectToCad()"></div>
+          <div class="vector-1"></div>
+          <div class="menu-superior">
+            <span class="novidades">Novidades</span
+            ><span class="separator">|</span
+            ><span class="masculino">Masculino</span
+            ><span class="vertical-line">|</span
+            ><span class="feminine">Feminino</span
+            ><span class="vertical-line-2">|</span
+            ><span class="childish">Infantil</span
+            ><button class="retros">Retros</button
+            ><span class="vertical-line-3">|</span>
+          </div>
+          <span class="search">Pesquisar</span>
+        </div>
+        <div class="rectangle-4"></div>
+      </div>
+      <div class="text-slides"></div>
+      <div class="frame">
+        <div class="flex-column">
+          <span class="carrinho">Carrinho</span
+          ><span class="item-carrinho">Você tem um item no carrinho</span>
+        </div>
+        <div class="group">
+          <div class="rectangle-5"></div>
+          <span class="subtotal">Subtotal</span
+          ><span class="subtotal-r">R$900</span
+          ><span class="subtotal-r-6">R$20</span><span class="frete">Frete</span
+          ><span class="frete-r">R$920</span><span class="total">Total </span
+          ><button class="rectangle-7"></button
+          ><span class="r-dollar">R$920</span><span class="pay">Pagar</span>
+          <div class="right"></div>
+        </div>
+        <div class="flex-column-ccf">
+          <div class="group-8">
+            <div class="rectangle-9"></div>
+            <div class="rectangle-a"></div>
+          </div>
+          <div class="group-b">
+            <div class="rectangle-c"></div>
+            <div class="rectangle-d"></div>
+            <span class="nike-sb-branco">Nike SB Branco</span
+            ><span class="price">R$900</span>
+            <div class="trash-can"></div>
+          </div>
+        </div>
+      </div>
+      <div class="text-slides-e"><div class="microsoft-teams-image" onclick="redirectToMenu()">
+      </div>
+      <span class="sign-up-login"><a onclick="redirectToCad()">Cadastre-se |</a><a onclick="redirectToLogin()"> Login</a></span>
+    </div>
+    <script>
+      function redirectToMenu() {
+          window.location.href = "index.html";
+      }
+
+      function redirectToLogin() {
+      window.location.href = "lgn.html";
+      }
+
+      function redirectToCad() {
+          window.location.href = "cadastro.html";
+      }
+
+      function redirectToCart() {
+      window.location.href = "carrinho.html";
+  }
+    </script>
+  </body>
+</html>

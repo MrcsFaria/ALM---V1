@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALM - Produto</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" />
+    <link rel="stylesheet" href="css/mostrarprod.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="menu-escolha">
+        <div class="flex-row-bcbe">
+          <div class="rectangle"></div>
+          <div class="vector" onclick="redirectToCad()"></div>
+          <div class="vector-1"></div>
+          <div class="comp-menu-sup">
+            <span class="novidades">Novidades</span
+            ><span class="divider">|</span
+            ><span class="masculino">Masculino</span
+            ><span class="divider-2">|</span
+            ><span class="feminino">Feminino</span
+            ><span class="vertical-line">|</span
+            ><span class="infantil">Infantil</span
+            ><button class="retros">Retros</button
+            ><span class="vertical-line-3">|</span>
+          </div>
+          <span class="pesquisar">Pesquisar</span>
+        </div>
+        <div class="rectangle-4"></div>
+      </div>
+      <div class="slides-text"></div>
+      <div class="frame">
+        <div class="flex-column-ad">
+          <div class="group"><div class="rectangle-5"></div></div>
+          <div class="group-6"></div>
+        </div>
+        <div class="flex-column-a">
+          <div class="productname">
+            <span class="nike-sb-branco">Nike SB Branco</span>
+          </div>
+          <div class="productprice">
+            <span class="productsize">R$ 900,00<br /></span>
+          </div>
+          <div class="tamanho">
+            <span class="flex-row">Tamanho</span>
+            <div class="group-7">
+              <div class="group-8">
+                <span class="text-d">38</span>
+                <div class="rectangle-9"></div>
+              </div>
+              <div class="group-a">
+                <span class="rectangle-group">39</span>
+                <div class="rectangle-b"></div>
+              </div>
+              <div class="group-c">
+                <span class="rectangle-group-d">40</span>
+                <div class="rectangle-e"></div>
+              </div>
+              <div class="group-f">
+                <span class="rectangle-group-10">41</span>
+                <div class="rectangle-11"></div>
+              </div>
+              <div class="group-12">
+                <span class="rectangle-group-13">42</span>
+                <div class="rectangle-14"></div>
+              </div>
+              <div class="group-15">
+                <span class="span">43</span>
+                <div class="rectangle-16"></div>
+              </div>
+            </div>
+          </div>
+          <button class="button" onclick="redirectToCart()">
+            <span class="span-17">Adicionar ao carrinho</span>
+            <div class="rectangle-18"></div>
+          </button>
+        </div>
+      </div>
+      <div class="slides-text-19">
+        <div class="microsoft-teams-image" onclick="redirectToMenu()">
+        </div>
+      </div>
+    </div>
+    <div>
+      <span class="cadastre-se-login"><a onclick="redirectToCad()">Cadastre-se |</a><a onclick="redirectToLogin()"> Login</a></span>
+    </div>
+    <script>
+      function redirectToCart() {
+          window.location.href = "carrinho.html";
+      }
+
+      function redirectToMenu() {
+          window.location.href = "index.html";
+      }
+
+      function redirectToLogin() {
+      window.location.href = "lgn.html";
+  }
+
+  function redirectToCad() {
+      window.location.href = "cadastro.html";
+  }
+
+  function redirectToCart() {
+      window.location.href = "carrinho.html";
+  }
+    </script>
+  </body>
+</html>

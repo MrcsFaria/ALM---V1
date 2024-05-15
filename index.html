@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALM - Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lao+Muang+Khong:wght@400&display=swap" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="menu-escolha">
+        <div class="flex-row-b">
+          <div class="rectangle"></div>
+          <div class="vector" onclick="redirectToCart()"></div>
+          <div class="vector-1"></div>
+          <div class="comp-menu-superior">
+            <span class="novidades">Novidades</span
+            ><span class="divider">|</span
+            ><span class="masculino">Masculino</span
+            ><span class="divider-2">|</span
+            ><span class="feminino">Feminino</span
+            ><span class="divider-3">|</span
+            ><span class="infantil">Infantil</span
+            ><span class="retros">Retros</span><span class="divider-4">|</span>
+          </div>
+          <span class="pesquisar">Pesquisar</span>
+        </div>
+        <div class="rectangle-5"></div>
+      </div>
+      <div class="slides-texto"></div>
+      <div class="frame-carrosel">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/images/1.png" class="d-block w-100" alt="foto1" style="height: 254px;">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>Novidades - Nike</h5>
+                  <p>Confira as novidades da Nike.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/2.png" class="d-block w-100" alt="foto2" style="height: 254px;">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>Novidades - Adidas</h5>
+                  <p>Confira as novidades da Adidas.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/3.png" class="d-block w-100" alt="foto3" style="height: 254px;">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>Novidades - Puma</h5>
+                  <p>Confira as novidades da Puma.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="frame-marcas">
+        <span class="marcas">Marcas</span>
+        <div class="comp-marcas">
+          <div class="vector-6"></div>
+          <div class="vector-7"></div>
+          <div class="vector-8"></div>
+          <div class="vector-9"></div>
+          <div class="vector-a"></div>
+          <div class="vector-b"></div>
+          <div class="vector-c"></div>
+          <div class="vector-d"></div>
+          <div class="vector-e"></div>
+        </div>
+      </div>
+      <div class="frame-cabecalho"><span class="em-alta">Em Alta</span></div>
+      <div class="frame-em-alta">
+        <div class="componente-imagens">
+          <div class="espaco-imagem"></div>
+          <div class="espaco-imagem-f"></div>
+          <div class="espaco-imagem-10"></div>
+          <div class="espaco-imagem-11"></div>
+          <div class="espaco-imagem-12"></div>
+          <div class="espaco-imagem-13"></div>
+        </div>
+        <div class="group">
+          <span class="nike-sb-white"  onclick="redirectToProd()">Nike SB White</span
+          ><span class="price">R$ 600,00</span>
+          <div class="espaco-imagem-14"></div>
+        </div>
+        <div class="group-15">
+          <span class="air-jordan-caqui">Air Jordan</span
+          ><span class="price-tag">R$ 1100,00</span>
+          <div class="image-space"></div>
+        </div>
+        <div class="group-16">
+          <span class="product-name">Nike Zoom - Fade</span
+          ><span class="price-tag-17">R$ 550,00</span>
+          <div class="image-space-18"></div>
+        </div>
+        <div class="group-19">
+          <span class="product-name-1a">Nike Zoom V2</span
+          ><span class="price-tag-1b">R$ 900,00</span>
+          <div class="image-space-1c"></div>
+        </div>
+        <div class="group-1d">
+          <span class="product-name-1e">Nike Fly - White</span
+          ><span class="price-tag-1f">R$ 600,00</span>
+          <div class="image-space-20"></div>
+        </div>
+        <div class="group-21">
+          <span class="product-name-22">Nike TN - Camaleão</span
+          ><span class="price-tag-23">R$ 1030,00</span>
+          <div class="image-space-24"></div>
+        </div>
+      </div>
+      <div class="header-frame">
+        <span class="promotions-title">Promoções</span>
+      </div>
+      <div class="promotions-frame">
+        <div class="image-component">
+          <div class="image-space-25"></div>
+          <div class="image-space-26"></div>
+          <div class="image-space-27"></div>
+          <div class="image-space-28"></div>
+          <div class="image-space-29"></div>
+          <div class="image-space-2a"></div>
+        </div>
+        <div class="group-2b">
+          <span class="nike-air-max-blue-grey">Nike Air Max 90 Blue & Grey</span
+          ><span class="price-2c">R$ 500,00</span>
+          <div class="image-space-2d"></div>
+        </div>
+        <div class="group-2e">
+          <span class="air-jordan-black-white">Air Jordan - Black & White</span
+          ><span class="price-2f">R$ 800,00</span>
+          <div class="image-space-30"></div>
+        </div>
+        <div class="group-31">
+          <span class="nike-sb-purple">Nike SB - Purple</span
+          ><span class="price-32">R$ 520,00</span>
+          <div class="image-space-33"></div>
+        </div>
+        <div class="group-34">
+          <span class="nike-sb-brown-white">Nike SB - Brown & White</span
+          ><span class="price-35">R$ 400,00</span>
+          <div class="image-space-36"></div>
+        </div>
+        <div class="group-37">
+          <span class="air-jordan-caqui-38">Air Jordan</span
+          ><span class="price-39">R$ 1020,00</span>
+          <div class="image-space-3a"></div>
+        </div>
+        <div class="group-3b">
+          <span class="nike-zoom-fade">Nike Zoom - Fade</span
+          ><span class="price-3c">R$ 480,00</span>
+          <div class="image-space-3d"></div>
+        </div>
+      </div>
+      <div class="footer-frame">
+        <div class="flex-row-d">
+          <div class="component">
+            <div class="vector-3e"></div>
+            <div class="vector-3f"></div>
+            <div class="vector-40"></div>
+          </div>
+          <span class="resources">Recursos</span><span class="help">Ajuda</span
+          ><span class="about-us">Sobre Nós</span
+          ><span class="promotions">Promoções</span>
+        </div>
+        <span class="gift-card">Gift Card</span
+        ><span class="find-store">Encontre um Loja</span
+        ><span class="become-member">Se Torne um membro</span
+        ><span class="feedback">Feedback</span>
+      </div>
+      <div class="text-slides">
+        <div class="teams-image" onclick="redirectToMenu()">   
+        </div>
+    </div>
+      <span class="signup-login"><a onclick="redirectToCad()">Cadastre-se |</a><a onclick="redirectToLogin()"> Login</a></span>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+  function redirectToMenu() {
+      window.location.href = "index.html";
+  }
+
+  function redirectToProd() {
+      window.location.href = "mostrarprod.html";
+  }
+
+  function redirectToLogin() {
+      window.location.href = "lgn.html";
+  }
+
+  function redirectToCad() {
+      window.location.href = "cadastro.html";
+  }
+
+  function redirectToCart() {
+      window.location.href = "carrinho.html";
+  }
+</script>
+  </body>
+</html>

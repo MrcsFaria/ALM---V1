@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALM - Cadastro</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" />
+    <link rel="stylesheet" href="css/cadastro.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="slides-texto"><div class="microsoft-teams-image" onclick="redirectToMenu()">
+      </div></div>
+      <div class="rectangle">
+        <div class="create-account">
+          <div class="frame">
+            <div class="frame-1">
+              <div class="frame-2">
+                <span class="cadastro">Cadastro</span>
+                <div class="have-an-account-login">
+                  <div class="already-have-an-account">
+                    <span class="ja-tem-uma-conta">Já tem uma conta? </span
+                    ><span class="se-logar" onclick="redirectToLogin()">Faça o Login</span
+                    ><span class="empty"> </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="frame-3">
+              <div class="name">
+                <div class="text-field">
+                  <div class="frame-4"><span class="label">Nome</span></div>
+                  <div class="text-field-5"></div>
+                </div>
+                <div class="text-field-6">
+                  <div class="frame-7">
+                    <span class="label-8">Sobrenome</span>
+                  </div>
+                  <div class="text-field-9"></div>
+                </div>
+              </div>
+              <div class="email">
+                <div class="frame-a"><span class="label-b">E-Mail</span></div>
+                <div class="text-field-c"></div>
+              </div>
+              <div class="password-instructions">
+                <div class="password">
+                  <div class="text-field-d">
+                    <div class="frame-e">
+                      <span class="password-label">Senha</span>
+                    </div>
+                    <div class="text-field-f"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="main-button">
+            <span class="sign-in">Entrar</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script>
+      function redirectToMenu() {
+          window.location.href = "index.html";
+      }
+
+      function redirectToLogin() {
+          window.location.href = "lgn.html";
+      }
+    </script>
+  </body>
+</html>
